@@ -1,0 +1,72 @@
+/* style.css */
+
+/* Gaya umum untuk body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.bg-custom {
+  background-color: rgb(110, 114, 117); /* Biru dengan sedikit transparansi */
+}
+
+/* Gaya untuk bagian home */
+.home {
+  min-height: 100vh; /* Memastikan tinggi minimal sesuai dengan viewport */
+  display: flex; /* Flexbox untuk penataan elemen */
+  align-items: center; /* Vertikal align */
+  justify-content: center; /* Horizontal align */
+  background-color: rgba(255, 255, 255, 0.8); /* Latar belakang */
+}
+
+/* Gaya untuk gambar di home */
+.home img {
+  width: 100%; /* Lebar penuh kolom */
+  height: auto; /* Menjaga rasio aspek */
+  max-height: 50%; /* Membatasi tinggi agar tidak overflow */
+  object-fit: contain; /* Mengisi ruang dengan mempertahankan rasio aspek */
+}
+
+/*Logo di home*/
+.logo {
+  max-width: 100%;
+  height: auto;
+  width: 100px; /* Ukuran lebar yang diinginkan */
+}
+
+/*Logo di Header*/
+.logo-image {
+  width: 100px; /* Atur ukuran yang diinginkan */
+  height: 50px; /* Atur ukuran yang diinginkan */
+  margin-left: 10px; /* Tambahkan margin jika perlu */
+}
+/* Gaya untuk section-title */
+.section-title {
+  font-size: 2.5rem; /* Ukuran font untuk judul section */
+  margin-bottom: 20px; /* Jarak bawah */
+}
+
+/* Gaya untuk card di kontak */
+.kontak .card {
+  margin: 10px; /* Jarak antar card */
+  padding: 20px; /* Padding di dalam card */
+  border: none; /* Menghilangkan border default */
+}
+
+/* Gaya untuk link sosial media */
+.kontak p a {
+  text-decoration: none; /* Menghilangkan garis bawah pada link */
+  color: #333; /* Warna teks */
+}
+
+/* Gaya responsif untuk gambar di semua bagian */
+.img-fluid {
+  max-width: 100%; /* Memastikan gambar tidak lebih lebar dari kolom */
+  height: auto; /* Menjaga rasio aspek */
+}
+
+.bg-footer-custom {
+  background-color: rgb(110, 114, 117); /* Hijau gelap */
+  color: white; /* Agar teks tetap terlihat */
+  padding: 20px 0; /* Menambahkan padding untuk estetika */
+}
